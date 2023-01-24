@@ -116,7 +116,7 @@ button:hover{
     gap: 30px;
     
 }
-@media (width<700px){
+@media (width<600px){
     .utility-sction{
         flex-direction: column;
     }
@@ -191,7 +191,11 @@ button:hover{
     box-shadow: 1px 2px 5px rgb(122, 118, 118);
     transform: scale(1.05);
 }
-
+@media (width<600px){
+    .grid-box:hover{
+        transform: scale(1.2);
+    }
+}
 /* menu-section-end */
 
 .last{
